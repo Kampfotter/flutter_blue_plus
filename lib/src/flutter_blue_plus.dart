@@ -34,7 +34,7 @@ class FlutterBluePlus {
   }
 
 
-  static final FlutterBluePlus _instance = FlutterBluePlus._();
+  static FlutterBluePlus _instance = FlutterBluePlus._();
   static FlutterBluePlus get instance => _instance;
 
   /// Log level of the instance, default is all messages (debug).
